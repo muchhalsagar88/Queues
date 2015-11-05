@@ -1,10 +1,13 @@
 Cache, Proxies, Queues
 =========================
 
+This is the fork of the Redis workshop repository provided in the class. I have included the Load Balancer proxy code in this repository under a separate file named `proxy-server.js`
+
 ### Setup
 
 * Clone this repo, run `npm install`.
 * Install redis and run on localhost:6379
+* Start the proxy server using 
 
 ### A simple web server
 
