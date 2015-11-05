@@ -3,7 +3,7 @@ Cache, Proxies, Queues
 
 This is the fork of the Redis workshop repository provided in the class. I have included the Load Balancer proxy code in this repository under a separate file named `proxy-server.js`
 
-The server runs at the `8090` port and redirects requests to the numerous main.js instances spawned at the time of startup. The main.js instances are started from ports begininning from 7000.
+The server runs at the `80` port and redirects requests to the numerous main.js instances spawned at the time of startup. The main.js instances are started from ports begininning from 3000.
 
 ### Setup
 The application needs to be run using the `sudo` privileges since it needs access to port 80 which is the default port for HTTP requests.
