@@ -4,7 +4,7 @@ var redis = require('redis');
 var spawn = require('child_process').spawn;
 
 var client = redis.createClient(6379, '127.0.0.1', {})
-var servers = process.argv[2] || 2, server_port = 7000, server_key = "servers";
+var servers = process.argv[2] || 2, server_port = 3000, server_key = "servers";
 
 var pushCallback = function(err, reply) {
 	if(err) throw err;
