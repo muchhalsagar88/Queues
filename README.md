@@ -17,4 +17,4 @@ The application needs to be run using the `sudo` privileges since it needs acces
 The various URLs are pushed as a queue to the Redis store. When a request is sent to the application, the Redis stre is queried and the first value is popped off the queue and the request is redirected to that particular main.js instance.
 
 ### Screencast
-The screencast can be found at the following [link](http://www.google.com)
+The screencast can be found at the following [link](https://www.youtube.com/watch?v=MY633q1aUvs)
