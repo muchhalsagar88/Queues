@@ -32,7 +32,7 @@ var server  = http.createServer(function(req, res) {
   });
 
 });
-server.listen(8090);
+server.listen(80);
 
 var terminate_children = function() {
 	client.del(server_key);
